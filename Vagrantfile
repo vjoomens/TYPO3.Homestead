@@ -109,7 +109,7 @@ SCRIPT
 VAGRANTFILE_API_VERSION = 2
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-	config.vm.box = 'Michiel/Development'
+	config.vm.box = 'oomensict/typo3'
 	config.vm.boot_timeout = BOOT_TIMEOUT
 # If you have no Internet access (can not resolve *.local.typo3.org), you can use host aliases:
 # 	config.hostsupdater.aliases = [
